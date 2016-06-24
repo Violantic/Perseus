@@ -1,7 +1,7 @@
 package me.violantic.perseus;
 
-import me.violantic.perseus.database.repo.Rank;
-import me.violantic.perseus.database.repo.Spell;
+import me.violantic.perseus.database.repo.datatype.enumerators.Rank;
+import me.violantic.perseus.database.repo.datatype.enumerators.Spell;
 import me.violantic.perseus.database.repo.datatype.PerseusAccount;
 import me.violantic.perseus.database.vDatabase;
 

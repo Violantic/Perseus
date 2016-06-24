@@ -1,6 +1,6 @@
 package me.violantic.perseus.database;
 
-import me.violantic.perseus.database.repo.Repository;
+import me.violantic.perseus.database.repo.datarepo.Repository;
 import me.violantic.perseus.database.repo.datarepo.EcoRepository;
 import me.violantic.perseus.database.repo.datarepo.SpellRepository;
 

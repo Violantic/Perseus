@@ -1,7 +1,6 @@
 package me.violantic.perseus.database.repo.datarepo;
 
 import me.violantic.perseus.Perseus;
-import me.violantic.perseus.database.repo.Repository;
 import me.violantic.perseus.database.repo.datatype.PerseusMoney;
 
 import java.sql.PreparedStatement;

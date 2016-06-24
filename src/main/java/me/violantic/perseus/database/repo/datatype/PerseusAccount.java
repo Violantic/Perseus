@@ -2,7 +2,6 @@ package me.violantic.perseus.database.repo.datatype;
 
 import com.google.gson.JsonObject;
 import me.violantic.perseus.Perseus;
-import me.violantic.perseus.database.repo.PerseusDataType;
 
 import java.util.List;
 

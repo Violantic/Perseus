@@ -1,4 +1,4 @@
-package me.violantic.perseus.database.repo;
+package me.violantic.perseus.database.repo.datatype.enumerators;
 
 import me.violantic.perseus.database.repo.datatype.PerseusSpell;
 import me.violantic.perseus.database.repo.util.PerseusSpellUtil;

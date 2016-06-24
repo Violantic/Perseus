@@ -1,8 +1,7 @@
 package me.violantic.perseus.database.repo.datarepo;
 
 import me.violantic.perseus.Perseus;
-import me.violantic.perseus.database.repo.Repository;
-import me.violantic.perseus.database.repo.Spell;
+import me.violantic.perseus.database.repo.datatype.enumerators.Spell;
 import me.violantic.perseus.database.repo.datatype.PerseusSpell;
 
 import java.sql.PreparedStatement;

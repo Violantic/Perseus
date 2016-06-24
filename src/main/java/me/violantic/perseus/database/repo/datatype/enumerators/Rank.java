@@ -1,4 +1,4 @@
-package me.violantic.perseus.database.repo;
+package me.violantic.perseus.database.repo.datatype.enumerators;
 
 /**
  * Created by Ethan on 6/23/2016.
