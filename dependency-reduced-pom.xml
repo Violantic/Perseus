@@ -14,7 +14,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>me.violantic.perseus.vAPI</mainClass>
+              <mainClass>me.violantic.perseus.Perseus</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -32,6 +32,7 @@
               <artifactSet>
                 <includes>
                   <include>mysql:mysql-connector-java</include>
+                  <include>com.google.code.gson:gson</include>
                 </includes>
               </artifactSet>
             </configuration>

@@ -94,6 +94,21 @@ public class vDatabase {
         return 0;
     }
 
+    public String getName(String uuid) {
+        String query = "SELECT name FROM accounts WHERE uuid='" + uuid + "'";
+        try {
+            PreparedStatement statement = _connection.prepareStatement(query);
+            ResultSet set = statement.executeQuery();
+            while(set.next()) {
+                String rank = set.getString("name");
+                return rank;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public String getRank(String uuid) {
         String query = "SELECT rank FROM accounts WHERE uuid='" + uuid + "'";
         try {

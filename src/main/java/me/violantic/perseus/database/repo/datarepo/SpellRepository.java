@@ -2,6 +2,7 @@ package me.violantic.perseus.database.repo.datarepo;
 
 import me.violantic.perseus.Perseus;
 import me.violantic.perseus.database.repo.Repository;
+import me.violantic.perseus.database.repo.Spell;
 import me.violantic.perseus.database.repo.datatype.PerseusSpell;
 
 import java.sql.PreparedStatement;
@@ -25,6 +26,7 @@ public class SpellRepository extends Repository<PerseusSpell> {
     }
 
     public void addSpell(String uuid, String spell) {
+        if(!Spell.isSpell(spell)) System.out.println("[Perseus] that is not a valid spell.");
         try {
             PreparedStatement statement = Perseus.getInstance().getDatabase()._connection.prepareStatement(ADD_SPELL.replace("{uuid}", uuid).replace("{spell}", spell));
             statement.executeUpdate();
